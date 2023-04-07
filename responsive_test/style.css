@@ -1,0 +1,37 @@
+*{box-sizing: border-box;}
+
+body {
+    margin:0;
+    font-family: sans-serif;
+}
+
+.parent{
+    background-color: #23424A;
+    /* padding: 50px; */
+
+    /* usually we create a fixed width and set the margin.
+    However we end up with a scroll for anything less than 900px. Issue with fixed widths.*/
+    /* width: 900px; */
+    /* margin: 0 auto; */
+
+    /* Let's look at percentages, by using a percentage width you get far more responsiveness and helps with our default position that everything is responsive. */
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+/* Issue with heights, when changing widths or viewport, text can get lost. we turn off the height */
+/* 
+    height: 300px; */
+    padding: 5em;
+    /* 16px = 1 em therefore 5em = 80px 
+    by using padding is we would like to keep a space around our content, we keep the height and along with the em measurements it allows us to keep the responsiveness */
+
+}
+
+.child{
+    background-color: #38CFD9;
+    height:250px;
+    width: 50%;
+    /* This percentage is in relation to the parent */
+
+
+}
