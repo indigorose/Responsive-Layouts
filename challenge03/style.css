@@ -11,6 +11,7 @@
 	--text-color-2: #072a2d;
 	--text-color-3: #87629a;
 	--background-header: #23424a;
+	--background-section: #136c72;
 	--background-button: #38cfd9;
 	font-family: 'Roboto', sans-serif;
 }
@@ -32,32 +33,78 @@ p {
 	margin: 0;
 	padding: 3em;
 }
+.flex {
+	margin: 0;
+	padding: 3em;
+}
+.hero-3 {
+	background-color: var(--background-section);
+	color: #ffffff;
+	margin: 0;
+	padding: 2em;
+}
+
 .container {
 	color: var(--text-color-1);
 	width: 80%;
 	max-width: 1100px;
 	margin: 0 auto;
+	padding: 2em;
 }
 .hero__text {
 	width: 60%;
 }
+.text{
+	font-size: 1.15rem;
+	padding-bottom: 2em;;
+}
 
 .btn {
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #23424A;
-    font-weight: 900;
-    background-color: #38CFD9;
-    padding: .75em 2em;
-    border-radius: 100px;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #23424a;
+	font-weight: 900;
+	background-color: #38cfd9;
+	padding: 0.75em 2em;
+	border-radius: 100px;
 }
 
 .btn:hover,
 .btn:focus {
 	opacity: 0.75;
 }
-.flex{
+.hero-2{
+	padding: 2em;
+}
+.flex {
 	color: var(--text-color-2);
 }
 
+.row {
+	display: flex;
+	gap: 15px;
+	color: var(--text-color-2);
+}
+
+.col h2 {
+	text-align: center;
+	color: var(--text-color-3);
+}
+.col p {
+	text-align: center;
+	font-size: 1.15rem;
+}
+
+.col-2 {
+	text-align: center;
+	color: var(--text-color-1);
+}
+.col-2 p{
+	font-size: 1.15rem;
+}
+
+.flex-2 {
+	background-color: var(--background-section);
+	color: var(--text-color-1);
+}
