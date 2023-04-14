@@ -29,17 +29,17 @@ p {
 
 .hero {
 	background-color: var(--background-header);
-	color: #ffffff;
 	margin: 0;
 	padding: 3em;
 }
-.flex {
+
+.hero-2 {
 	margin: 0;
-	padding: 3em;
+	padding: 2em;
 }
+
 .hero-3 {
 	background-color: var(--background-section);
-	color: #ffffff;
 	margin: 0;
 	padding: 2em;
 }
@@ -54,9 +54,9 @@ p {
 .hero__text {
 	width: 60%;
 }
-.text{
+.text {
 	font-size: 1.15rem;
-	padding-bottom: 2em;;
+	padding-bottom: 2em;
 }
 
 .btn {
@@ -74,37 +74,25 @@ p {
 .btn:focus {
 	opacity: 0.75;
 }
-.hero-2{
-	padding: 2em;
-}
-.flex {
-	color: var(--text-color-2);
-}
 
 .row {
 	display: flex;
 	gap: 15px;
+}
+
+.accent-title {
+	color: var(--text-color-3);
+}
+
+.accent-text {
 	color: var(--text-color-2);
 }
 
+.col {
+	text-align: center;
+	font-size: 1.15rem;
+}
+
 .col h2 {
-	text-align: center;
-	color: var(--text-color-3);
-}
-.col p {
-	text-align: center;
-	font-size: 1.15rem;
-}
-
-.col-2 {
-	text-align: center;
-	color: var(--text-color-1);
-}
-.col-2 p{
-	font-size: 1.15rem;
-}
-
-.flex-2 {
-	background-color: var(--background-section);
-	color: var(--text-color-1);
+	font-size: 2rem;
 }
