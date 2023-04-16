@@ -8,77 +8,87 @@
 		<title>Document</title>
 	</head>
 	<body>
-		<body>
-			<div class="hero">
-				<div class="container row">
-					<div class="hero__text">
-						<h1>Responsive layouts don’t have to be a struggle</h1>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit, sed do eiusmod tempor incididunt ut labore et
-							dolore magna aliqua. Ut enim ad minim veniam.
-						</p>
-						<a href="#" class="btn">I want to learn</a>
-					</div>
-					<div class="hero__img">
-						<img src="./images/hero-img.jpg" alt="website images" />
-					</div>
+		<header>
+			<nav class="nav container">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#">Home</a></li>
+					<li class="nav__item"><a href="#">About</a></li>
+					<li class="nav__item"><a href="#">Contact</a></li>
+				</ul>
+				<ul class="nav__list">
+					<li class="nav__item nav__item--push-right">
+						<a href="#">Sign In</a>
+					</li>
+					<li class="nav__item nav__link-btn">
+						<a href="#">Sign Up</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<section class="hero">
+			<div class="container row">
+				<div class="hero__text">
+					<h1>Responsive layouts don’t have to be a struggle</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua. Ut enim ad minim veniam.
+					</p>
+					<a href="#" class="btn">I want to learn</a>
+				</div>
+				<div class="hero__img">
+					<img src="./images/hero-img.jpg" alt="website images" />
 				</div>
 			</div>
-			<div class="hero-2">
-				<div class="container row">
-					<div class="col__row">
-						<h2 class="title-2">
-							Quality designs made custom, on demand, just for you
-						</h2>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit, sed do eiusmod tempor incididunt ut labore et
-							dolore magna aliqua. Ut enim ad minim veniam. Lorem
-							ipsum dolor sit amet, consectetur adipiscing elit,
-							sed do eiusmod tempor incididunt ut labore et dolore
-							magna aliqua. Ut enim ad minim veniam.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit, sed do eiusmod tempor incididunt ut labore et
-							dolore magna aliqua. Ut enim ad minim veniam. Lorem
-							ipsum dolor sit amet, consectetur adipiscing elit,
-							sed do eiusmod tempor incididunt ut labore et dolore
-							magna aliqua. Ut enim ad minim veniam
-						</p>
-					</div>
-					<div class="row accent_col">
-						<div class="row__col">
-							<h2 class="accent-title">Cheap</h2>
-							<p class="accent-text">
-								Lorem ipsum dolor sit amet, consectetur
-								adipiscing elit, sed do eiusmod tempor
-								incididunt ut labore et dolore magna aliqua. Ut
-								enim ad minim veniam.
-							</p>
-						</div>
-						<div class="row__col">
-							<h2 class="accent-title">Quick</h2>
-							<p class="accent-text">
-								Lorem ipsum dolor sit amet, consectetur
-								adipiscing elit, sed do eiusmod tempor
-								incididunt ut labore et dolore magna aliqua. Ut
-								enim ad minim veniam.
-							</p>
-						</div>
-						<div class="row__col">
-							<h2 class="accent-title">Quality</h2>
-							<p class="accent-text">
-								Lorem ipsum dolor sit amet, consectetur
-								adipiscing elit, sed do eiusmod tempor
-								incididunt ut labore et dolore magna aliqua. Ut
-								enim ad minim veniam.
-							</p>
-						</div>
-					</div>
+		</section>
+		<main class="main container row">
+			<section class="primary-content">
+				<h2 class="section-title">
+					Quality designs made custom, on demand, just for you
+				</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+					do eiusmod tempor incididunt ut labore et dolore magna
+					aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet,
+					consectetur adipiscing elit, sed do eiusmod tempor
+					incididunt ut labore et dolore magna aliqua. Ut enim ad
+					minim veniam.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+					do eiusmod tempor incididunt ut labore et dolore magna
+					aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet,
+					consectetur adipiscing elit, sed do eiusmod tempor
+					incididunt ut labore et dolore magna aliqua. Ut enim ad
+					minim veniam
+				</p>
+			</section>
+			<aside class="row sidebar">
+				<div class="row__col">
+					<h2 class="accent-title">Cheap</h2>
+					<p class="accent-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua. Ut enim ad minim veniam.
+					</p>
 				</div>
-			</div>
-		</body>
+				<div class="row__col">
+					<h2 class="accent-title">Quick</h2>
+					<p class="accent-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua. Ut enim ad minim veniam.
+					</p>
+				</div>
+				<div class="row__col">
+					<h2 class="accent-title">Quality</h2>
+					<p class="accent-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua. Ut enim ad minim veniam.
+					</p>
+				</div>
+			</aside>
+		</main>
 	</body>
 </html>
