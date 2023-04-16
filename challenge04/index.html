@@ -9,21 +9,29 @@
 	</head>
 	<body>
 		<header>
-			<nav class="nav container">
-				<ul class="nav__list">
-					<li class="nav__item"><a href="#">Home</a></li>
-					<li class="nav__item"><a href="#">About</a></li>
-					<li class="nav__item"><a href="#">Contact</a></li>
-				</ul>
-				<ul class="nav__list">
-					<li class="nav__item nav__item--push-right">
-						<a href="#">Sign In</a>
-					</li>
-					<li class="nav__item nav__link-btn">
-						<a href="#">Sign Up</a>
-					</li>
-				</ul>
-			</nav>
+			<div class="container row">
+				<a class="logo" href="#" target="_blank" rel="noopener noreferrer">
+					<img
+						src="./images/logo.svg"
+						alt="Conquering Responsive Layouts logo"
+					/>
+				</a>
+				<nav class="nav">
+					<ul class="nav__list nav__list--primary">
+						<li class="nav__item"><a href="#">Home</a></li>
+						<li class="nav__item"><a href="#">About</a></li>
+						<li class="nav__item"><a href="#">Contact</a></li>
+					</ul>
+					<ul class="nav__list nav__list--secondary">
+						<li class="nav__item nav__item--push-right">
+							<a href="#">Sign In</a>
+						</li>
+						<li class="nav__item nav__link-btn">
+							<a href="#">Sign Up</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
 		</header>
 		<section class="hero">
 			<div class="container row">
