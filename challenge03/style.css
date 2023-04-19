@@ -106,3 +106,16 @@ img {
 .col h2 {
 	font-size: 2rem;
 }
+
+@media (max-width: 700px){
+	.row{
+		display: block;
+	}
+	.hero__text{
+		width: 100%;
+	}
+	.hero__img{
+		margin-top: 1em;
+		width: 100%;
+	}
+}
