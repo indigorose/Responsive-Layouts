@@ -28,9 +28,16 @@ p{
     font-family: 'Roboto', sans-serif;
     font-size: 1.3rem;
 }
+img{
+    max-width: 100%;
+}
+
 .hero {
     margin: 0;
     background-color: var(--color-1);
+    min-height: 660px;
+    display: flex;
+    align-items: center;
 }
 .accent__primary {
     background-color: #222c2a;
