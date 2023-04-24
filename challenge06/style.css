@@ -142,6 +142,10 @@ header {
 	font-size: 1rem;
 }
 
+.nav__list--primary {
+	margin-bottom: 2em;
+}
+
 .nav__item {
 	/* border: 1px solid white; */
 	list-style: none;
@@ -152,12 +156,16 @@ header {
 	color: white;
 }
 
+.nav__link:hover, .nav__link:focus {
+	opacity: .65;
+}
+
 .nav__link--button {
 	background-color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #136c72;
-	padding: 0.25em 1em;
+	padding: 0.25em .75em;
 	border-radius: 100px;
 }
 
