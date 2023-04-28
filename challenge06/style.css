@@ -78,7 +78,6 @@ header {
 	background: #072a2d;
 	color: white;
 	transition: opacity 250ms ease;
-
 	position: absolute;
 	left: 0;
 }
@@ -123,7 +122,7 @@ header {
 .nav {
 	visibility: hidden;
 	height: 0;
-	position: absolute;
+	/* position: absolute; */
 }
 
 .nav--visible {
@@ -202,12 +201,12 @@ header {
         padding-right: 0.5em;
     }
 	.nav {
+		border: 1px solid red;
 		visibility: visible;
 		display: flex;
 		height: auto;
-		justify-content: space-between;
 		align-items: center;
-		flex-grow: 1;
+		width: fit-content;
 	}
 
 	.row {
